@@ -1,3 +1,16 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: homepage.php");
+  }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,10 +52,10 @@
                         <a class="nav-link" href="feedback.php">Feedback</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Log In"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="#Log In"><i class="fa fa-user" aria-hidden="true"></i> <?php echo $_SESSION['username'] ?></a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Log In"> <i class="fa fa-bars" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="explore.php?logout='1'">Log out</a>
                     </li>
                 </ul>
             </div>
@@ -290,7 +303,7 @@
 					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</ul>
-				<p class="cpryt">@ Copyright 2019 Nature Template by <a href="">Online Tutorials</a></p>
+				<p class="cpryt">@ Copyright 2019 Var-VIVAH <a href="">feedback</a></p>
 			</div>
 		</div>
 			

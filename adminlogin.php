@@ -8,7 +8,7 @@ session_start();
 <head>
 	<title>Login page</title>
 	<?php  include 'links.php' ?>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
 </head>
 <body>
 	<header>

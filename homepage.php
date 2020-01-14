@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Var VIVAH</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -20,10 +20,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
-
-
-
-                     <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="explore.php">India</a>
@@ -31,8 +28,6 @@
                         <a class="dropdown-item" href="#">Canada</a>
                     </div>
                     </li>
-
-
                      <li class="nav-item">
                         <a class="nav-link" href="contactUs.php">Contact</a>
                     </li>
@@ -40,10 +35,10 @@
                         <a class="nav-link" href="feedback.php">Feedback</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Sign Up">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="register.php">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="./loginadmin/adminlogin.php">Log In <i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="login.php">Log In <i class="fa fa-user" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -118,12 +113,12 @@
 					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</ul>
-				<p class="cpryt">@ Copyright 2019 Nature Template by <a href="">Online Tutorials</a></p>
+				<p class="cpryt">@ Copyright 2019 Var-VIVAH <a href="">feedback</a></p>
 			</div>
 		</div>
-			
+
 	</div>
-	
+
 </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

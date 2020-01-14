@@ -23,7 +23,8 @@ if(isset($_POST['submit'])){
    	if($row==1){
    	  	echo 'login succeessful';
    	  	$_SESSION['user']=$username;
-   	  	header('location:adminmainpage.php');
+   	  	header('location:explore.php');
+         console.log("here");
    	  }
    	  else{
    	  	echo 'login failed';

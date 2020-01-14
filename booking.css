@@ -6,6 +6,8 @@
 body{
 	font-family: 'poppins', sans-serif;
 	background-color: #a2a7ac;
+	background-image: url(./img/img11.jpg);
+	background-size:  cover;
 }
 header{
 	position: relative;
@@ -81,7 +83,7 @@ hr {
 	margin-top: 60px;
 }
 .footer{
-	background-color: #000;
+	background-color: black;
 	padding: 50px 0 0;
 }
 .sci{
@@ -96,7 +98,7 @@ hr {
 	margin: 0 20px;
 }
 .sci li a{
-	color: #262626;
+	color: white;
 	font-size: 2em;
 	transition: 0.5s;
 }
@@ -106,9 +108,27 @@ hr {
 .cpryt{
 	margin-top: 20px; 
 	text-align: center;
-	color: #262626;
+	color: white;
 }
 .cpryt a,
 .cpryt a:hover{
 	color: #fff;
+}
+input
+{
+	width: 453px;
+    border-radius: 10px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+}
+label{
+	font-family: cursive;
+    font-size: 20px;
+    color: ghostwhite;
+}
+h1{
+	    color: yellow;
+    font-family: cursive;
 }
